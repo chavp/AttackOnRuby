@@ -42,6 +42,7 @@ chavp.play(song2)
 # test some function
 puts 'gin joint'.length
 puts 'Rick'.index('c')
+
 puts 42.even?
 num = -1234
 puts "|-123| = #{num.abs}"
@@ -70,15 +71,15 @@ inst_section = {
   trumpet: 'brass',
   violin: 'string'
 }
-puts "#{inst_section[:cello]}"
 
+puts "#{inst_section[:cello]}"
 yes = 1
 puts 'Yes' if yes == 1
 
 # Regular Expressions
 line = '55555'
-puts "Scripting language mentioned: #{line}" if line =~ /Perl|Python/
 
+puts "Scripting language mentioned: #{line}" if line =~ /Perl|Python/
 line.sub(/Perl/, 'Ruby') # replace first 'Perl' with 'Ruby'
 line.gsub(/Python/, 'Ruby') # replace every 'Python' with 'Ruby'
 
